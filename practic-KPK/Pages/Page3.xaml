@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practic_KPK.Pages.Page3">
+    <ContentPage.Content>
+        <StackLayout Background="#9EB9FF" HorizontalOptions="Fill">
+            <ScrollView>
+                <StackLayout>
+                    <Label FontFamily="Monoton" FontSize="11" Background="white">В Колледже активно ведется спортивная
+работа, в которую вовлечены и студенты и
+преподаватели.
+                    </Label>
+                    <Label FontFamily="Monoton" FontSize="11" Background="white">Для занятий спортом в колледже имеется
+спортивный зал, тренажерные залы для
+юношей и девушек, оборудованные в
+соответствии с современными требованиями. 
+ 
+Спортивный комплекс, находящийся на
+территории Колледжа, позволяет заниматься
+футболом, волейболом, баскетболом, силовыми
+видами спорта. Здесь же проводятся
+различные спортивные мероприятия с
+участием спортсменов из других колледжей и
+высших учебных заведений.
+
+                    </Label>
+                    <Label FontFamily="Monoton" FontSize="11" Background="white">
+Для всех желающих работают спортивные
+секции: волейбольная, баскетбольная,
+футбольная и по настольному теннису. 
+
+Студенты, занимающиеся в клубе, успешно
+выступают в городских соревнованиях по
+военно-прикладным видам спорта,
+завоевывают призовые места, получают
+награды.
+                    </Label>
+                    <StackLayout HeightRequest="65" WidthRequest="65" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Padding="5">
+                        <ImageButton Source="back.png" HeightRequest="65" WidthRequest="65" Clicked="Button_Clicked" BackgroundColor="Transparent"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
