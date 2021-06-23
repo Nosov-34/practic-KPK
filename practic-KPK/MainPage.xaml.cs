@@ -13,6 +13,11 @@ namespace practic_KPK
         public MainPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+        private void MenuBTN_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Оно работает", "И че?", "ОK");
         }
     }
 }
