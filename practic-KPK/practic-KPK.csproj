@@ -17,7 +17,58 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Fonts\montserrat\black.ttf" />
+    <None Remove="Resources\Fonts\montserrat\blackitalic.ttf" />
+    <None Remove="Resources\Fonts\montserrat\bold.ttf" />
+    <None Remove="Resources\Fonts\montserrat\bolditalic.ttf" />
+    <None Remove="Resources\Fonts\montserrat\extrabold.ttf" />
+    <None Remove="Resources\Fonts\montserrat\extrabolditalic.ttf" />
+    <None Remove="Resources\Fonts\montserrat\extralight.ttf" />
+    <None Remove="Resources\Fonts\montserrat\extralightitalic.ttf" />
+    <None Remove="Resources\Fonts\montserrat\italic.ttf" />
+    <None Remove="Resources\Fonts\montserrat\light.ttf" />
+    <None Remove="Resources\Fonts\montserrat\lightitalic.ttf" />
+    <None Remove="Resources\Fonts\montserrat\medium.ttf" />
+    <None Remove="Resources\Fonts\montserrat\mediumitalic.ttf" />
+    <None Remove="Resources\Fonts\montserrat\regular.ttf" />
+    <None Remove="Resources\Fonts\montserrat\semibold.ttf" />
+    <None Remove="Resources\Fonts\montserrat\semibolditalic.ttf" />
+    <None Remove="Resources\Fonts\montserrat\thin.ttf" />
+    <None Remove="Resources\Fonts\montserrat\thinitalic.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Fonts\montserrat\black.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\blackitalic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\bold.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\bolditalic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\extrabold.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\extrabolditalic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\extralight.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\extralightitalic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\italic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\light.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\lightitalic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\medium.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\mediumitalic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\regular.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\semibold.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\semibolditalic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\thin.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\montserrat\thinitalic.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="MenuDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\MenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

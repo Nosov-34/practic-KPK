@@ -3,15 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="practic_KPK.App">
     <Application.Resources>
-        <Style TargetType="Label" x:Name="LabelBig">
-            <Setter Property="FontFamily" Value="Montserrat"/>
-            <Setter Property="FontAttributes" Value="SemiBold"/>
-            <Setter Property="FontSize" Value="18"/>
-        </Style>
-        <Style TargetType="Label" x:Name="LabelSmall">
-            <Setter Property="FontFamily" Value="Montserrat"/>
-            <Setter Property="FontAttributes" Value="Regular"/>
-            <Setter Property="FontSize" Value="14"/>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="MontserratRegular"/>
+            <Setter Property="TextColor" Value="Black"/>
         </Style>
     </Application.Resources>
 </Application>

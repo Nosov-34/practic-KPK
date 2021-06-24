@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using practic_KPK.Pages;
 
 namespace practic_KPK
 {
@@ -17,7 +18,7 @@ namespace practic_KPK
         }
         private void MenuBTN_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Оно работает", "И че?", "ОK");
+            Application.Current.MainPage = new NavigationPage(new MenuPage());
         }
     }
 }
