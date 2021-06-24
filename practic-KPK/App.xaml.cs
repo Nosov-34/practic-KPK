@@ -10,7 +10,8 @@ namespace practic_KPK
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Pages.Corps();
+            
         }
 
         protected override void OnStart()

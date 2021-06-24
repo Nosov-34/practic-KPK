@@ -13,12 +13,6 @@ namespace practic_KPK
         public MainPage()
         {
             InitializeComponent();
-            
-        }
-
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new NavigationPage(new Corps());
         }
     }
 }

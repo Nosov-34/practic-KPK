@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practic_KPK.Pages.Corps_Three">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#9EB9FF">
+            <Frame CornerRadius="5" HeightRequest="65" Margin="3,5,4,0" Padding="0">
+                <Label Text="Филиал, г. Пласт, ул. Учебный городок, 12" TextColor="Black" 
+                       HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="25"/>
+            </Frame>
+            <Image Source="Corps_Filial_Two.png" Margin="10,10,10,0"/>
+            <Image Source="Corps_Filial_Two_Map.png" Margin="30,0,30,0"/>
+
+            <StackLayout HorizontalOptions="Center" VerticalOptions="EndAndExpand" Padding="5">
+                <ImageButton Source="ButBack.png" WidthRequest="65" BackgroundColor="Transparent"
+                        Clicked="But_Back"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
