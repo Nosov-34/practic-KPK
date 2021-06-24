@@ -16,22 +16,46 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Pages\Page1.xaml">
+    <Compile Update="Pages\StudentPage6.xaml.cs">
+      <DependentUpon>StudentPage6.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\StudentPage5.xaml.cs">
+      <DependentUpon>StudentPage5.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\StudentPage4.xaml.cs">
+      <DependentUpon>StudentPage4.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\StudentPage3.xaml.cs">
+      <DependentUpon>StudentPage3.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\StudentPage2.xaml.cs">
+      <DependentUpon>StudentPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\StudentPage1.xaml.cs">
+      <DependentUpon>StudentPage1.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Pages\StudentPage1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page2.xaml">
+    <EmbeddedResource Update="Pages\StudentPage2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page3.xaml">
+    <EmbeddedResource Update="Pages\StudentPage3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page4.xaml">
+    <EmbeddedResource Update="Pages\StudentPage4.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page5.xaml">
+    <EmbeddedResource Update="Pages\StudentPage5.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page6.xaml">
+    <EmbeddedResource Update="Pages\StudentPage6.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\StudentPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

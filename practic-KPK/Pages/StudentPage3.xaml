@@ -4,13 +4,15 @@
              x:Class="practic_KPK.Pages.Page3">
     <ContentPage.Content>
         <StackLayout Background="#9EB9FF" HorizontalOptions="Fill">
-            <ScrollView>
-                <StackLayout>
-                    <Label FontFamily="Monoton" FontSize="11" Background="white">В Колледже активно ведется спортивная
+            <StackLayout Padding="3" VerticalOptions="FillAndExpand">
+                    <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                        <Label FontFamily="montserrat" FontSize="14" Background="white">В Колледже активно ведется спортивная
 работа, в которую вовлечены и студенты и
 преподаватели.
-                    </Label>
-                    <Label FontFamily="Monoton" FontSize="11" Background="white">Для занятий спортом в колледже имеется
+                        </Label>
+                    </Frame>
+                    <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                        <Label FontFamily="montserrat" FontSize="14" Background="white">Для занятий спортом в колледже имеется
 спортивный зал, тренажерные залы для
 юношей и девушек, оборудованные в
 соответствии с современными требованиями. 
@@ -23,9 +25,11 @@
 участием спортсменов из других колледжей и
 высших учебных заведений.
 
-                    </Label>
-                    <Label FontFamily="Monoton" FontSize="11" Background="white">
-Для всех желающих работают спортивные
+                        </Label>
+                    </Frame>
+                    <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                        <Label FontFamily="montserrat" FontSize="14" Background="white">
+                            Для всех желающих работают спортивные
 секции: волейбольная, баскетбольная,
 футбольная и по настольному теннису. 
 
@@ -34,12 +38,12 @@
 военно-прикладным видам спорта,
 завоевывают призовые места, получают
 награды.
-                    </Label>
-                    <StackLayout HeightRequest="65" WidthRequest="65" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Padding="5">
+                        </Label>
+                    </Frame>
+                    <StackLayout HeightRequest="65" WidthRequest="65" HorizontalOptions="Center" VerticalOptions="EndAndExpand">
                         <ImageButton Source="back.png" HeightRequest="65" WidthRequest="65" Clicked="Button_Clicked" BackgroundColor="Transparent"/>
                     </StackLayout>
                 </StackLayout>
-            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

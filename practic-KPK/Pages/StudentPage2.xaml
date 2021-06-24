@@ -5,8 +5,9 @@
     <ContentPage.Content>
         <StackLayout Background="#9EB9FF" HorizontalOptions="Fill">
             <ScrollView>
-                <StackLayout>
-                    <Label FontFamily="Monoton" FontSize="11" Background="white">Образовательный комплекс №1 (Копейск, ул.Ленина, 40):
+                <StackLayout Padding="3">
+                    <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                    <Label FontFamily="montserrat" FontSize="14" Background="white">Образовательный комплекс №1 (Копейск, ул.Ленина, 40):
 
  1 пара
 
@@ -39,8 +40,10 @@
 
   16:35 - 17:20
 
-                    </Label>
-                    <Label FontFamily="Monoton" FontSize="11" Background="white">Образовательный комплекс №2 (Копейск, пр.Ильича, 14)
+                        </Label>
+                    </Frame>
+                        <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                            <Label FontFamily="montserrat" FontSize="14" Background="white">Образовательный комплекс №2 (Копейск, пр.Ильича, 14)
 
  1 пара
 
@@ -66,8 +69,10 @@
 
 14.45 - 15.30
 
-                    </Label>
-                    <Label FontFamily="Monoton" FontSize="11" Background="white">Образовательный комплекс №3 (Пласт, ул. Учебный городок, 12; ул.Володарского, 2)
+                            </Label>
+                    </Frame>
+                            <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                                <Label FontFamily="montserrat" FontSize="14" Background="white">Образовательный комплекс №3 (Пласт, ул. Учебный городок, 12; ул.Володарского, 2)
 
  1 пара
 
@@ -105,8 +110,9 @@
 
   17:35 - 18:20
 
-                    </Label>
-                    <StackLayout HeightRequest="65" WidthRequest="65" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Padding="5">
+                                </Label>
+                            </Frame>
+                            <StackLayout HeightRequest="65" WidthRequest="65" HorizontalOptions="Center" VerticalOptions="End" Padding="5">
                         <ImageButton Source="back.png" HeightRequest="65" WidthRequest="65" Clicked="Button_Clicked" BackgroundColor="Transparent"/>
                     </StackLayout>
                 </StackLayout>

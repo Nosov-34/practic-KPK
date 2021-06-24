@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace practic_KPK.Pages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-public partial class Page4 : ContentPage
+public partial class Page3 : ContentPage
 {
-    public Page4()
+    public Page3()
     {
         InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
@@ -20,7 +20,7 @@ public partial class Page4 : ContentPage
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new MainPage());
+            Application.Current.MainPage = new NavigationPage(new StudentPage());
         }
     }
 }

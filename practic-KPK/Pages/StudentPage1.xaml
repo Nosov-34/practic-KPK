@@ -4,14 +4,17 @@
              x:Class="practic_KPK.Pages.Page1">
     
     <ContentPage.Content>
-        <StackLayout  Background="#9EB9FF" HorizontalOptions="Fill">
-            <Label FontFamily="Monoton" FontSize="11" Background="white">Режим работы учебной части (кабинет 229):
+        <StackLayout  Background="#9EB9FF" HorizontalOptions="Fill" Padding="3">
+                <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                    <Label FontFamily="montserrat" FontSize="14" Background="white">Режим работы учебной части (кабинет 229):
 Пн. – Пт.:  С  8-00  до  16-30
 Перерыв:  С 12-00 до 12-30
 Выходной:  суббота, воскресенье
 Телефон: 8 (351-39) 3-63-26
-            </Label>
-            <Label FontFamily="Monoton" FontSize="11" Background="white">Структура управления учебной частью
+                    </Label>
+            </Frame>
+            <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                <Label FontFamily="montserrat" FontSize="14" Background="white">Структура управления учебной частью
 
 Заведующий учебной частью
 Секретарь учебной части
@@ -26,15 +29,18 @@
 Делопроизводитель
 Першукова Елена Павловна
 
-            </Label>
-            <Label FontFamily="Monoton" FontSize="11" Background="white">Учебная часть Колледжа осуществляет
+                </Label>
+            </Frame>
+                <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                <Label FontFamily="montserrat" FontSize="14" Background="white">Учебная часть Колледжа осуществляет
 планирование, организацию, учет и контроль
 за ходом образовательного процесса по очной
 форме обучения. Составляет и корректирует
 расписание учебных занятий на основе
 Календарного учебного графика.
-            </Label>
-            <StackLayout HeightRequest="65" WidthRequest="65" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Padding="5">
+                    </Label>
+                </Frame>
+                <StackLayout HeightRequest="65" WidthRequest="65" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Padding="5">
                 <ImageButton Source="back.png" HeightRequest="65" WidthRequest="65" Clicked="Button_Clicked" BackgroundColor="Transparent"/>
             </StackLayout>
         </StackLayout>
