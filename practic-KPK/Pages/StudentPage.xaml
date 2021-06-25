@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="practic_KPK.Pages.StudentPage">
     <ContentPage.Content>
-        <StackLayout Background="#9EB9FF" HorizontalOptions="Fill" VerticalOptions="Fill">
+        <StackLayout Background="#9EB9FF" HorizontalOptions="Fill" VerticalOptions="Fill" Padding="3">
             <StackLayout HorizontalOptions="Center" VerticalOptions="StartAndExpand" Padding="10">
                 <Image Source="info.png" HeightRequest="150" WidthRequest="150"/>
             </StackLayout>
