@@ -4,7 +4,6 @@
              x:Class="practic_KPK.MainPage">
 
     <ScrollView>
-
         <StackLayout BackgroundColor="#9EB9FF" Padding="3">
             <Frame CornerRadius="5" Margin="0,50,0,0">
                 <Label Background="white" FontFamily="Montserrat" FontSize="14" TextColor="black" HeightRequest="150" >08.01.26 Мастер по ремонту и обслуживанию 
@@ -162,7 +161,7 @@
                     <TapGestureRecognizer Tapped="back"></TapGestureRecognizer>
                 </Image.GestureRecognizers>
             </Image>
-    </StackLayout>
+        </StackLayout>
     </ScrollView>
 
 </ContentPage>
