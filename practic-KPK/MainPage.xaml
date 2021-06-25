@@ -1,44 +1,94 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="practic_KPK.MainPage" BackgroundColor="#9EB9FF">
+             x:Class="practic_KPK.MainPage">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout Orientation="Vertical" BackgroundColor="#9EB9FF">
+                <Frame CornerRadius="5" Padding="10">
+                    <Grid>
+                        <ImageButton Source="menu.png" HeightRequest="30" WidthRequest="30" x:Name="MenuBTN1" BackgroundColor="Transparent" Clicked="MenuBTN_Clicked1" HorizontalOptions="Start" VerticalOptions="Center"/>
+                        <Label Text="MENU" TextColor="#233294" FontSize="20" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    </Grid>
+                </Frame>
 
-    <StackLayout Spacing="30">
-        <Frame BackgroundColor="White" CornerRadius="5" Padding="10">
-            <Grid>
-                <ImageButton Source="menu.png" HeightRequest="30" WidthRequest="30" x:Name="MenuBTN" BackgroundColor="Transparent" Clicked="MenuBTN_Clicked" HorizontalOptions="Start" VerticalOptions="Center"/>
-                <Label Text="KPK74" TextColor="#233294" FontSize="20" HorizontalOptions="Center" VerticalOptions="Center"/>
-            </Grid>
-        </Frame>
-        <StackLayout Spacing="15" Padding="3,0,3,0">
-            <Frame BackgroundColor="White" CornerRadius="15" >
-                <StackLayout>
-                    <Label Text="Заголовок новости" HorizontalOptions="Center" FontSize="16"/>
-                    <StackLayout Orientation="Horizontal">
-                        <Image HeightRequest="80" WidthRequest="80" Source="infoicon.png"/>
-                        <Label Text="Текст новости"/>
-                    </StackLayout>
-                </StackLayout>
-            </Frame>
-            <Frame BackgroundColor="White" CornerRadius="15" >
-                <StackLayout>
-                    <Label Text="Заголовок новости" HorizontalOptions="Center" FontSize="16"/>
-                    <StackLayout Orientation="Horizontal">
-                        <Image HeightRequest="80" WidthRequest="80" Source="infoicon.png"/>
-                        <Label Text="Текст новости"/>
-                    </StackLayout>
-                </StackLayout>
-            </Frame>
-            <Frame BackgroundColor="White" CornerRadius="15" >
-                <StackLayout>
-                    <Label Text="Заголовок новости" HorizontalOptions="Center" FontSize="16"/>
-                    <StackLayout Orientation="Horizontal">
-                        <Image HeightRequest="80" Source="infoicon.png" WidthRequest="80"/>
-                        <Label Text="Текст новости"/>
-                    </StackLayout>
-                </StackLayout>
-            </Frame>
-        </StackLayout>
-    </StackLayout>
+                <StackLayout Spacing="5" Padding="15,0,3,0" VerticalOptions="FillAndExpand">
 
-</ContentPage>
+                    <Grid HorizontalOptions="Center">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Spacing="18" Padding="0,0,0,0">
+                            <Image Source="korpicon.png" WidthRequest="30" HeightRequest="30"/>
+                            <Label Text="Корпуса" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
+                        </StackLayout>
+                        <Button x:Name="KorpBTN" BackgroundColor="Transparent" Clicked="KorpBTN_Clicked"/>
+                    </Grid>
+
+                    <Grid HorizontalOptions="Center">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Spacing="15" Padding="-2,-20,0,0">
+                            <Image Source="specicon.png" WidthRequest="35" HeightRequest="35"/>
+                            <Label Text="Специальности" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
+                        </StackLayout>
+                        <Button x:Name="SpecBTN" BackgroundColor="Transparent" Clicked="SpecBTN_Clicked"/>
+                    </Grid>
+
+                    <Grid HorizontalOptions="Center">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Spacing="14" Padding="0,-40,0,0">
+                            <Image Source="studenticon.png" WidthRequest="35" HeightRequest="35"/>
+                            <Label Text="Студентам" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
+                        </StackLayout>
+                        <Button x:Name="StudentBTN" BackgroundColor="Transparent" Clicked="StudentBTN_Clicked"/>
+                    </Grid>
+
+                    <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="Center" Spacing="10" Padding="20">
+                        <ImageButton Source="interneticon.png" x:Name="InternetBTN" WidthRequest="40" HeightRequest="40" BackgroundColor="Transparent" Clicked="InternetBTN_Clicked"/>
+                        <ImageButton Source="vkicon.png" x:Name="VKBTN" WidthRequest="40" HeightRequest="40" BackgroundColor="Transparent" Clicked="VKBTN_Clicked"/>
+                    </StackLayout>
+
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage BackgroundColor="#9EB9FF">
+            <StackLayout Spacing="30">
+                <Frame BackgroundColor="White" CornerRadius="5" Padding="10">
+                    <Grid>
+                        <ImageButton Source="menu.png" HeightRequest="30" WidthRequest="30" x:Name="MenuBTN" BackgroundColor="Transparent" Clicked="MenuBTN_Clicked" HorizontalOptions="Start" VerticalOptions="Center"/>
+                        <Label Text="KPK74" TextColor="#233294" FontSize="20" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    </Grid>
+                </Frame>
+                <StackLayout Spacing="15" Padding="3,0,3,0">
+                    <Frame BackgroundColor="White" CornerRadius="15" >
+                        <StackLayout>
+                            <Label Text="Заголовок новости" HorizontalOptions="Center" FontSize="16"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Image HeightRequest="80" WidthRequest="80" Source="infoicon.png"/>
+                                <Label Text="Текст новости"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="White" CornerRadius="15" >
+                        <StackLayout>
+                            <Label Text="Заголовок новости" HorizontalOptions="Center" FontSize="16"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Image HeightRequest="80" WidthRequest="80" Source="infoicon.png"/>
+                                <Label Text="Текст новости"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="White" CornerRadius="15" >
+                        <StackLayout>
+                            <Label Text="Заголовок новости" HorizontalOptions="Center" FontSize="16"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Image HeightRequest="80" Source="infoicon.png" WidthRequest="80"/>
+                                <Label Text="Текст новости"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+        
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
+
