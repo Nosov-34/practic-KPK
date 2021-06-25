@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="practic_KPK.Pages.Page3">
+             x:Class="practic_KPK.Pages.Page4E">
     <ScrollView>
         <StackLayout Background="#9EB9FF" Padding="5">
             <Frame Background="#FFFFFF" CornerRadius="10">
@@ -31,7 +31,7 @@
 Высшее профессиональное образования в сокращенные сроки.</Label>
                 </StackLayout>
             </Frame>
-            <ImageButton x:Name="butn4" Clicked="butn4_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
+            <ImageButton x:Name="button5" Clicked="button5_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
         </StackLayout>
     </ScrollView>
 </ContentPage>

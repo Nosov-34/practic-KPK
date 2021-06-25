@@ -16,40 +16,46 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Pages\MainPage.xaml">
+    <Compile Update="Pages\Page8I.xaml.cs">
+      <DependentUpon>Page8I.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Pages\Page0A.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page0.xaml">
+    <EmbeddedResource Update="Pages\Page10K.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page1.xaml">
+    <EmbeddedResource Update="Pages\Page11L.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page10.xaml">
+    <EmbeddedResource Update="Pages\Page1B.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page2.xaml">
+    <EmbeddedResource Update="Pages\Page2C.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page3.xaml">
+    <EmbeddedResource Update="Pages\Page3D.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page4.xaml">
+    <EmbeddedResource Update="Pages\Page4E.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page5.xaml">
+    <EmbeddedResource Update="Pages\Page5F.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page6.xaml">
+    <EmbeddedResource Update="Pages\Page6G.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page7.xaml">
+    <EmbeddedResource Update="Pages\Page7H.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page8.xaml">
+    <EmbeddedResource Update="Pages\Page8I.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Page9.xaml">
+    <EmbeddedResource Update="Pages\Page9J.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

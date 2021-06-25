@@ -10,14 +10,14 @@ using Xamarin.Forms.Xaml;
 namespace practic_KPK.Pages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-public partial class Page0 : ContentPage
+public partial class Page4E : ContentPage
 {
-    public Page0()
-        {
-            InitializeComponent();
+    public Page4E()
+    {
+        InitializeComponent();
     }
 
-        private void butn1_Clicked(object sender, EventArgs e)
+        private void button5_Clicked(object sender, EventArgs e)
         {
 
         }

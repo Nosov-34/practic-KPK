@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practic_KPK.Pages.Page2C">
+    <ScrollView>
+    <StackLayout Background="#9EB9FF" Padding="5">
+        <Frame Background="#FFFFFF" CornerRadius="10">
+            <StackLayout>
+                <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">09.01.03 Мастер по обработке цифровой информации</Label>
+                <Label FontSize="14" FontFamily="Monoton">Уровень образования:
+среднее профессиональное;
+
+ Квалификация:
+Оператор электронно-вычислительных и вычислительных машин;
+
+ Форма обучения:
+Очная;
+
+ Срок обучения:
+2 года 10 месяцев
+
+ Продолжение образования:
+повышенный уровень образования; среднее професеональное образование.</Label>
+            </StackLayout>
+        </Frame>
+        <ImageButton x:Name="button3" Clicked="button3_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

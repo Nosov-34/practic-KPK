@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="practic_KPK.Pages.Page4">
+             x:Class="practic_KPK.Pages.Page5F">
     <ScrollView>
         <StackLayout Background="#9EB9FF" Padding="5">
             <Frame Background="#FFFFFF" CornerRadius="10">
@@ -27,7 +27,7 @@
 Повышенный уровень образования на базе среднего профессионального образования срок обучения - 10 месяцев высшее профессиональное образование.</Label>
                 </StackLayout>
             </Frame>
-            <ImageButton x:Name="butn5" Clicked="butn5_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
+            <ImageButton x:Name="button6" Clicked="button6_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
         </StackLayout>
     </ScrollView>
 </ContentPage>
