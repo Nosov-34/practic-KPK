@@ -3,22 +3,166 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="practic_KPK.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+    <ScrollView>
+
+        <StackLayout BackgroundColor="#9EB9FF" Padding="3">
+            <Frame CornerRadius="5" Margin="0,50,0,0">
+                <Label Background="white" FontFamily="Montserrat" FontSize="14" TextColor="black" HeightRequest="150" >08.01.26 Мастер по ремонту и обслуживанию 
+инженерных систем жилищно-коммунального
+хозяйства
+Форма обучения: очная
+
+Срок обучения:2 года 10 месяцев
+            </Label>
+            </Frame>
+            <Image Source="strelka.png" Margin="300,-80,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Frame CornerRadius="5">
+                <Label Background="white" FontSize="14" FontFamily="Montserrat" TextColor="Black"  HeightRequest="150" >08.02.01 Строительство и эксплуатация зданий и сооружений
+Форма обучения: очная и заочная
+
+Срок обучения:
+2 года 10 месяцев - 3 года 10 месяцев
+                </Label>
+            </Frame>
+            <Image Source="strelka.png" Margin="300,-80,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Frame CornerRadius="5" >
+                <Label Background="white" FontSize="14" TextColor="Black" FontFamily="Montserrat" HeightRequest="150" Padding="0,0,0,0">09.01.03 Мастер по обработке цифровой информации
+Форма обучения: очная
+
+Срок обучения:  2 года 10 месяцев</Label>
+                </Frame>
+            <Image Source="strelka.png" Margin="300,-80,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Frame CornerRadius="5" >
+                <Label Background="white" FontSize="14" FontFamily="Montserrat" TextColor="Black" HeightRequest="150">09.02.01 Компьютерные системы и комплексы
+Форма обучения: очная и заочная
+
+Срок обучения:
+2 года 10 месяцев - 3 года 10 месяцев
+                </Label>
+            </Frame>
+            <Image Source="strelka.png" Margin="300,-80,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Frame CornerRadius="5" >
+                <Label Background="white" FontSize="14" FontFamily="Montserrat"  TextColor="Black" HeightRequest="150">09.02.07 Информационные системы и программирование
+Форма обучения: очная
+
+Срок обучения:
+2 года 10 месяцев - 3 года 10 месяцев
+                </Label>
+            </Frame>
+            <Image Source="strelka.png" Margin="300,-80,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Frame CornerRadius="5" >
+                <Label Background="white" FontSize="14" FontFamily="Montserrat"  TextColor="Black" HeightRequest="150">13.02.11 Техническая эксплуатация и обслуживание электромеханического и электрического оборудования(по отраслям)
+Форма обучения: очная и заочная
+
+Срок обучения:
+2 года 10 месяцев - 3 года 10 месяцев
+                </Label>
+            </Frame>
+            <Image Source="strelka.png" Margin="300,-80,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Frame CornerRadius="5" >
+                <Label Background="white" FontSize="14" FontFamily="Montserrat"  TextColor="Black" HeightRequest="150">15.01.05 Cварщик (ручной и частично механизированной сварки (наплавки)
+Форма обучения: очная
+
+Срок обучения: 2 года 10 месяцев
+                </Label>
+            </Frame>
+            <Image Source="strelka.png" Margin="300,-80,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_6"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Frame CornerRadius="5" >
+                <Label Background="white" FontSize="14" FontFamily="Montserrat"  TextColor="Black" HeightRequest="150">15.01.33 Токарь на станках с числовым программным управлением
+Форма обучения: очная
+
+Срок обучения:2 года 10 месяцев
+                </Label>
+            </Frame>
+            <Image Source="strelka.png" Margin="300,-80,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_7"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Frame CornerRadius="5" >
+                <Label Background="white" FontSize="14" FontFamily="Montserrat"  TextColor="Black" HeightRequest="150">15.02.08 Технология машиностроения
+Форма обучения: очная и заочная
+
+Срок обучения: 3 года 10 месяцев
+                </Label>
+            </Frame>
+            <Image Source="strelka.png" Margin="300,-80,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_8"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Frame CornerRadius="5" >
+                <Label Background="white" FontSize="14"  FontFamily="Montserrat" TextColor="Black" HeightRequest="150">15.02.15 Технология металлообрабатывающего производства
+Форма обучения: очная
+ 
+Срок обучения: 4 года 10 месяцев
+                </Label>
+            </Frame>
+            <Image Source="strelka.png" Margin="300,-80,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_9"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Frame CornerRadius="5" >
+                <Label Background="white" FontSize="14" FontFamily="Montserrat" TextColor="Black" HeightRequest="150">21.02.05 Земельно-имущественные отношения
+Форма обучения: очная и заочная
+
+Срок обучения
+1 год 10 месяцев - 2 года 10 месяцев
+                </Label>
+            </Frame>
+            <Image Source="strelka.png" Margin="300,-80,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_10"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Frame CornerRadius="5" >
+                <Label Background="white" FontSize="14" FontFamily="Montserrat"  TextColor="Black" HeightRequest="150">21.02.15 Открытые горные работы
+Форма обучения: очная
+
+Срок обучения
+2 год 10 месяцев - 3 года 10 месяцев
+                </Label>
+            </Frame>
+            <Image Source="strelka.png" Margin="300,-80,0,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_11"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="back.png">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="back"></TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
     </StackLayout>
+    </ScrollView>
 
 </ContentPage>
