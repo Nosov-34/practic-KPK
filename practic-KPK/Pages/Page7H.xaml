@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="practic_KPK.Pages.Page7H">
-    <ScrollView>
-        <StackLayout Background="#9EB9FF" Padding="5">
-            <Frame Background="#FFFFFF" CornerRadius="10">
-                <StackLayout>
-                    <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">15.01.33 Токарь на станках с числовым программным управлением</Label>
-                    <Label FontSize="14" FontFamily="Monoton">Уровень образования:
+    <StackLayout VerticalOptions="Fill">
+        <ScrollView>
+            <StackLayout Background="#9EB9FF" Padding="5">
+                <Frame Background="#FFFFFF" CornerRadius="10">
+                    <StackLayout>
+                        <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">15.01.33 Токарь на станках с числовым программным управлением</Label>
+                        <Label FontSize="14" FontFamily="Monoton">Уровень образования:
 Среднее профессиональное;
 
  Квалификация
@@ -23,10 +24,13 @@
 
  Продолжение образования:
 Высшее профессиональное образования в сокращенные сроки.
-                    </Label>
+                        </Label>
+                    </StackLayout>
+                </Frame>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <ImageButton x:Name="button8" Clicked="button8_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
                 </StackLayout>
-            </Frame>
-            <ImageButton x:Name="button8" Clicked="button8_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
-        </StackLayout>
-    </ScrollView>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
 </ContentPage>

@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="practic_KPK.Pages.Page0A">
-    <ScrollView>
-        <StackLayout Background="#9EB9FF" Padding="5">
-            <Frame Background="#FFFFFF" CornerRadius="10">
-                <StackLayout>
-                    <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">08.01.26 Мастер по ремонту и обслуживанию инженерных систем жилищно-коммунального хозяйствае</Label>
-                    <Label FontSize="14" FontFamily="Monoton">Уровень образования:
+    <StackLayout VerticalOptions="Fill">
+        <ScrollView>
+            <StackLayout Background="#9EB9FF" Padding="5" VerticalOptions="Fill">
+                <Frame Background="#FFFFFF" CornerRadius="10">
+                    <StackLayout>
+                        <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">08.01.26 Мастер по ремонту и обслуживанию инженерных систем жилищно-коммунального хозяйствае</Label>
+                        <Label FontSize="14" FontFamily="Monoton">Уровень образования:
 среднее профессиональное;
 
 Квалификация:
@@ -26,9 +27,12 @@
 
 Продолжение образования:
 высшее профессиональное образования в сокращенные сроки.</Label>
+                    </StackLayout>
+                </Frame>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <ImageButton x:Name="button1" Clicked="button1_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
                 </StackLayout>
-            </Frame>
-            <ImageButton x:Name="button1" Clicked="button1_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
-        </StackLayout>
-    </ScrollView>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
 </ContentPage>

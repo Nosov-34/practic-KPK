@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="practic_KPK.Pages.Page10K">
-    <ScrollView>
-        <StackLayout Background="#9EB9FF" Padding="5">
-            <Frame Background="#FFFFFF" CornerRadius="10">
-                <StackLayout>
-                    <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">21.02.05 Земельно-имущественные отношения</Label>
-                    <Label FontSize="14" FontFamily="Monoton">Уровень образования:
+    <StackLayout VerticalOptions="Fill">
+        <ScrollView>
+            <StackLayout Background="#9EB9FF" Padding="5">
+                <Frame Background="#FFFFFF" CornerRadius="10">
+                    <StackLayout>
+                        <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">21.02.05 Земельно-имущественные отношения</Label>
+                        <Label FontSize="14" FontFamily="Monoton">Уровень образования:
 Среднее профессиональное;
 
  Квалификация:
@@ -25,9 +26,12 @@
 
  Специалист по земельно-имущественным отношениям базовой подготовки готовится к следующим видам деятельности (по базовой подготовке): 
 Управление земельно-имущественным комплексом. Осуществление кадастровых отношений. Картографо-геодезическое сопровождение земельно-имущественных отношений. Определение стоимости недвижимого имущества.</Label>
+                    </StackLayout>
+                </Frame>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <ImageButton x:Name="button11" Clicked="button11_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
                 </StackLayout>
-            </Frame>
-            <ImageButton x:Name="button11" Clicked="button11_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
-        </StackLayout>
-    </ScrollView>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
 </ContentPage>
