@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practic_KPK.Pages.Page10K" Background="#9EB9FF">
+    <StackLayout VerticalOptions="Fill">
+        <ScrollView>
+            <StackLayout Background="#9EB9FF" Padding="5">
+                <Frame Background="#FFFFFF" CornerRadius="10">
+                    <StackLayout>
+                        <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">21.02.05 Земельно-имущественные отношения</Label>
+                        <Label FontSize="14" FontFamily="Monoton">Уровень образования:
+Среднее профессиональное;
+
+ Квалификация:
+Специалист по земельно-имущественным отношениям;
+
+ Форма обучения:
+Очная и заочная;
+
+ Срок обучения:
+На базе основного общего образования 2 года 10 месяцев,
+На базе среднего общего образования 1 год 10 месяцев;
+
+ Объектами профессиональной деятельности выпускников являются:
+Земельно-имущественный комплекс; процесс кадастровых отношений; технология картографо-геодезического сопровождения земельно-имущественных отношений; технология определения стоимости недвижимого имущества;
+
+ Специалист по земельно-имущественным отношениям базовой подготовки готовится к следующим видам деятельности (по базовой подготовке): 
+Управление земельно-имущественным комплексом. Осуществление кадастровых отношений. Картографо-геодезическое сопровождение земельно-имущественных отношений. Определение стоимости недвижимого имущества.</Label>
+                    </StackLayout>
+                </Frame>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <ImageButton x:Name="button11" Clicked="button11_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

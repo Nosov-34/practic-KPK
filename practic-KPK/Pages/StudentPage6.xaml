@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practic_KPK.Pages.Page6">
+    <ContentPage.Content>
+        <StackLayout Background="#9EB9FF" HorizontalOptions="Fill">
+            <ScrollView>
+                <StackLayout Padding="3">
+                    <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                    <Label FontFamily="montserrat" FontSize="14" Background="white">В колледже функционирует 4 библиотеки (с учетом филиала):
+
+образовательный комплекс №1 (г. Копейск, ул. Ленина,40);
+образовательный комплекс №2 (г. Копейск, пр. Ильича, 14);
+образовательный комплекс № 3, Пластовский технологический филиал     (г. Пласт, ул. Володарского, 2, ул. Учебный городок, 12)
+
+Режим работы библиотеки
+Пн. – Пт.:  С  8-00  до  16-30
+Перерыв:  С 12-15 до 12-45
+Выходной:  суббота, воскресенье
+ 
+
+Телефон: 8 (351-39) 3- 63-26 (доб. 315)
+                        </Label>
+                    </Frame>
+                        <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                            <Label FontFamily="montserrat" FontSize="14" Background="white">Общий объем книжного фонда составляет более 70000 единиц хранения. Библиотека обеспечивает информационными ресурсами учебно-воспитательный процесс в колледже, а также оказывает поддержку пользователям в решении задач, возникающих в процессе их педагогической, профессиональной, учебной и досуговой деятельности.
+
+Библиотекой ведется большая работа по приведению состава фонда в соответствие с ФГОС, избавлению от непрофильной, устаревшей литературы. Комплектование осуществляется по заявкам преподавателей в соответствии с учебными планами профессиональной подготовки. Не первый год сотрудничаем НЭБ, Всенаука. Работаем с электронной платформой ЭБС издательства « Знаниум».
+
+                            </Label>
+                        </Frame>
+                        <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                                <Label FontFamily="montserrat" FontSize="14" Background="white">В библиотеке реализуются семь  образовательных программ в рамках регионального инновационного проекта:
+
+Знакомство с библиотекой;
+Гражданско-патриотическое воспитание;
+Праздники России;
+Здоровый образ жизни;
+Мир профессий;
+Финансовая грамотность населения;
+Моя малая Родина – Копейск.
+                                </Label>
+                            </Frame>
+                            <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                                    <Label FontFamily="montserrat" FontSize="14" Background="white">Библиотеки колледжа оснащены
+компьютерами, оборудованы оргтехникой,
+подключены к Интернету. Пользователям
+библиотеки предоставляется бесплатный
+доступ к электронным ресурсам: Интернету,
+стандартным программам Windows, 
+MicrosoftOffice, справочнику 2GIS Челябинск и
+др., а так же электронные методические
+пособия по оформлению курсовых и
+дипломных проектов, электронные учебники,
+разработанные преподавателями колледжа.
+                                    </Label>
+                                </Frame>
+                                <StackLayout HeightRequest="65" WidthRequest="65" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Padding="5">
+                        <ImageButton Source="back.png" HeightRequest="65" WidthRequest="65" Clicked="Button_Clicked" BackgroundColor="Transparent"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

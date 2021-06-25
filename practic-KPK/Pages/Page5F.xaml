@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practic_KPK.Pages.Page5F" Background="#9EB9FF">
+    <StackLayout VerticalOptions="Fill">
+        <ScrollView>
+            <StackLayout Background="#9EB9FF" Padding="5">
+                <Frame Background="#FFFFFF" CornerRadius="10">
+                    <StackLayout>
+                        <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">13.02.11 Техническая эксплуатация и обслуживание электромеханического и электрического оборудования(по отраслям)</Label>
+                        <Label FontSize="14" FontFamily="Monoton">Уровень образования:
+Среднее профессиональное;
+
+ Квалификация:
+Техник;
+
+ Форма обучения:
+Очная и заочная;
+
+ Срок обучения:
+На базе основного общего образования 3 года 10 месяцев,
+На базе среднего общего образования 2 года 10 месяцев;
+
+ Объекты профессиональной деятельности:
+Автоматические и автоматизированные системы производства их проектирование, отладка и эксплуатация в различных отраслях Виды профессиональной деятельности производственно-технологическая обслуживание и ремонт электрических машин, стационарных и передвижных установок, электромеханических комплексов и систем; организационно-управленческая – организация работы коллектива исполнителей; планирование и организация производственных работ в условиях нестандартных ситуациях; осуществление за качеством выполнения работ; участие в оценке экономической эффективности производственной деятельности обеспечение техники безопасности на производственном участке
+
+ Продолжение образования:
+Повышенный уровень образования на базе среднего профессионального образования срок обучения - 10 месяцев высшее профессиональное образование.</Label>
+                    </StackLayout>
+                </Frame>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <ImageButton x:Name="button6" Clicked="button6_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

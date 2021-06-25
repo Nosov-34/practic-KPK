@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practic_KPK.Pages.Page7H" Background="#9EB9FF">
+    <StackLayout VerticalOptions="Fill">
+        <ScrollView>
+            <StackLayout Background="#9EB9FF" Padding="5">
+                <Frame Background="#FFFFFF" CornerRadius="10">
+                    <StackLayout>
+                        <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">15.01.33 Токарь на станках с числовым программным управлением</Label>
+                        <Label FontSize="14" FontFamily="Monoton">Уровень образования:
+Среднее профессиональное;
+
+ Квалификация
+Токарь, токарь-расточник 
+
+ Форма обучения: очная;
+
+ Срок обучения:
+На базе среднего общего образования 2 года 10 месяцев;
+
+ Виды профессиональной деятельности:
+Изготовление изделий на токарных, токарно-расточных станках по стадиям технологического процесса в соответствии с требованиями охраны труда и экологической безопасности, изготовление различных изделий на токарных станках с числовым программным управлением по стадиям технологического процесса в соответствии с требованиями охраны труда и экологической безопасности.
+
+ Продолжение образования:
+Высшее профессиональное образования в сокращенные сроки.
+                        </Label>
+                    </StackLayout>
+                </Frame>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <ImageButton x:Name="button8" Clicked="button8_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

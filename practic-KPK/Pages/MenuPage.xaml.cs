@@ -25,17 +25,17 @@ public partial class MenuPage : ContentPage
 
         private void KorpBTN_Clicked(object sender, EventArgs e)
         {
-            
+            Application.Current.MainPage = new NavigationPage(new Corps());
         }
 
         private void SpecBTN_Clicked(object sender, EventArgs e)
         {
-
+            Application.Current.MainPage = new NavigationPage(new ProfPage());
         }
 
         private void StudentBTN_Clicked(object sender, EventArgs e)
         {
-
+            Application.Current.MainPage = new NavigationPage(new StudentPage());
         }
 
         private void VKBTN_Clicked(object sender, EventArgs e)

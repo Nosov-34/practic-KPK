@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practic_KPK.Pages.StudentPage">
+    <ContentPage.Content>
+        <StackLayout Background="#9EB9FF" HorizontalOptions="Fill" VerticalOptions="Fill" Padding="3">
+            <StackLayout HorizontalOptions="Center" VerticalOptions="StartAndExpand" Padding="10">
+                <Image Source="info.png" HeightRequest="150" WidthRequest="150"/>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                <Button Background="#233294" HeightRequest="37" WidthRequest="229" CornerRadius="13" TextColor="White" Text="Учебная часть" FontFamily="Monoton" FontSize="11" Clicked="Button_Clicked"/>
+                <Button Background="#233294" HeightRequest="37" WidthRequest="229" CornerRadius="13" TextColor="White" Text="Расписание занятий" FontFamily="Monoton" FontSize="11" Clicked="Button_Clicked_1"/>
+                <Button Background="#233294" HeightRequest="37" WidthRequest="229" CornerRadius="13" TextColor="White" Text="Спортивная жизнь" FontFamily="Monoton" FontSize="11" Clicked="Button_Clicked_2"/>
+                <Button Background="#233294" HeightRequest="37" WidthRequest="229" CornerRadius="13" TextColor="White" Text="Олимпиады и конкурсы" FontFamily="Monoton" FontSize="11" Clicked="Button_Clicked_3"/>
+                <Button Background="#233294" HeightRequest="37" WidthRequest="229" CornerRadius="13" TextColor="White" Text="Студенческое самоуправление" FontFamily="Monoton" FontSize="11" Clicked="Button_Clicked_4"/>
+                <Button Background="#233294" HeightRequest="37" WidthRequest="229" CornerRadius="13" TextColor="White" Text="Библиотека" FontFamily="Monoton" FontSize="11" Clicked="Button_Clicked_5"/>
+            </StackLayout>
+            <StackLayout HeightRequest="65" WidthRequest="65" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Padding="5">
+                <ImageButton Source="back.png" HeightRequest="65" WidthRequest="65" Clicked="ImageButton_Clicked" BackgroundColor="Transparent"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

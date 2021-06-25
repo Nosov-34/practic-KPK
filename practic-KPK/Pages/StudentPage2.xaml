@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practic_KPK.Pages.Page2">
+    <ContentPage.Content>
+        <StackLayout Background="#9EB9FF" HorizontalOptions="Fill">
+            <ScrollView>
+                <StackLayout Padding="3">
+                    <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                    <Label FontFamily="montserrat" FontSize="14" Background="white">Образовательный комплекс №1 (Копейск, ул.Ленина, 40):
+
+ 1 пара
+
+  8:00 - 8:45
+
+ 
+  8:55 - 9:40
+
+ 2 пара
+
+  9:50 - 10:35
+
+  10:45 - 11:30
+
+ 3 пара
+
+  12:00 - 12:45
+
+  12:55 - 13:40
+
+ 4 пара
+
+  13:50 - 14:35
+
+  14:45 - 15:30
+
+ 5 пара
+
+  15:40 - 16:25
+
+  16:35 - 17:20
+
+                        </Label>
+                    </Frame>
+                        <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                            <Label FontFamily="montserrat" FontSize="14" Background="white">Образовательный комплекс №2 (Копейск, пр.Ильича, 14)
+
+ 1 пара
+
+  8.00 - 8.45
+
+  8.55 - 9.40
+
+ 2 пара
+
+  9.50 - 10.30
+
+  10.55 - 11.40
+
+ 3 пара
+
+  12.00 - 12.45
+
+  12.55 - 13.40
+
+4 пара
+
+13.50 - 14.35
+
+14.45 - 15.30
+
+                            </Label>
+                    </Frame>
+                            <Frame BackgroundColor="White" CornerRadius="5" Padding="2">
+                                <Label FontFamily="montserrat" FontSize="14" Background="white">Образовательный комплекс №3 (Пласт, ул. Учебный городок, 12; ул.Володарского, 2)
+
+ 1 пара
+
+  8:00 - 8:45
+
+  8:50 - 9:35
+
+ 2 пара
+
+  9:45 - 10:30
+
+  10:35 - 11:20
+
+ 3 пара
+
+  11:35 - 12:20
+
+  12:25 - 13:10
+
+ 4 пара
+
+  13:25 - 14:10
+
+  14:15 - 15:00
+
+ 5 пара
+
+  15:05 - 15:50
+
+  15:55 - 16:40
+
+ 6 пара
+
+  16:45 - 17:30
+
+  17:35 - 18:20
+
+                                </Label>
+                            </Frame>
+                            <StackLayout HeightRequest="65" WidthRequest="65" HorizontalOptions="Center" VerticalOptions="End" Padding="5">
+                        <ImageButton Source="back.png" HeightRequest="65" WidthRequest="65" Clicked="Button_Clicked" BackgroundColor="Transparent"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
