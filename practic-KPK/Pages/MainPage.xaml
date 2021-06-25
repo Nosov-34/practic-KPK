@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practic_KPK.Pages.MainPage">
+    <ScrollView>
+        <StackLayout Background="#9EB9FF" Padding="5">
+            <Frame Background="#FFFFFF" CornerRadius="10">
+                <StackLayout>
+                    <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">08.01.26 Мастер по ремонту и обслуживанию инженерных систем жилищно-коммунального хозяйствае</Label>
+                    <Label FontSize="14" FontFamily="Monoton">Уровень образования:
+среднее профессиональное;
+
+Квалификация:
+слесарь-сантехник,
+электромонтажник по освещению и осветительным сетям;
+
+Форма обучения:
+очная;
+
+Срок обучения:
+на базе среднего общего образования 2 года 10 месяцев;
+
+Виды профессиональной деятельности:
+Поддержание рабочего состояния оборудования систем водоснабжения, водоотведения, отопления объектов жилищно-коммунального хозяйства,
+поддержание в рабочем состоянии силовых и слаботочных систем зданий и сооружений, системы освещения и осветительных сетей объектов жилищно-коммунально го хозяйства.
+
+Продолжение образования:
+высшее профессиональное образования в сокращенные сроки.</Label>
+                </StackLayout>
+            </Frame>
+            <ImageButton x:Name="butn0" Clicked="butn0_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

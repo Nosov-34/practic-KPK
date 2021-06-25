@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practic_KPK.Pages.Page3">
+    <ScrollView>
+        <StackLayout Background="#9EB9FF" Padding="5">
+            <Frame Background="#FFFFFF" CornerRadius="10">
+                <StackLayout>
+                    <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">09.02.07 Информационные системы и программирование</Label>
+                    <Label FontSize="14" FontFamily="Monoton">Уровень образования:
+Среднее профессиональное;
+
+ Квалификация:
+Специалист по информационным системам;
+
+ Форма обучения:
+Очная;
+
+ Срок обучения:
+На базе основного общего образования 3 года 10 месяцев,
+На базе среднего общего образования 2 года 10 месяцев;
+
+ Виды профессиональной деятельности:
+Осуществление интеграции программных модулей,
+ревьюирование программных продуктов,
+проектирование и разработка информационных систем,
+сопровождение информационных систем,
+соадминистрирование баз данных и серверов.
+
+ Продолжение образования:
+Высшее профессиональное образования в сокращенные сроки.</Label>
+                </StackLayout>
+            </Frame>
+            <ImageButton x:Name="butn4" Clicked="butn4_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
