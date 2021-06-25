@@ -17,69 +17,69 @@ namespace practic_KPK
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
-        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Page1B());
+            await Navigation.PushModalAsync(new Page1B());
         }
 
-        private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Page0A());
+            await Navigation.PushModalAsync(new Page0A());
         }
 
-        private void TapGestureRecognizer_Tapped_2(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped_2(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Page2C());
+            await Navigation.PushModalAsync(new Page2C());
         }
 
-        private void TapGestureRecognizer_Tapped_3(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped_3(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Page3D());
+            await Navigation.PushModalAsync(new Page3D());
         }
 
-        private void TapGestureRecognizer_Tapped_4(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped_4(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Page4E());
+            await Navigation.PushModalAsync(new Page4E());
         }
 
-        private void TapGestureRecognizer_Tapped_5(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped_5(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Page5F());
+            await Navigation.PushModalAsync(new Page5F());
         }
 
-        private void TapGestureRecognizer_Tapped_6(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped_6(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Page6G());
+            await Navigation.PushModalAsync(new Page6G());
         }
 
-        private void TapGestureRecognizer_Tapped_7(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped_7(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Page7H());
+            await Navigation.PushModalAsync(new Page7H());
         }
 
-        private void TapGestureRecognizer_Tapped_8(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped_8(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Page8I());
+            await Navigation.PushModalAsync(new Page8I());
         }
 
-        private void TapGestureRecognizer_Tapped_9(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped_9(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Page9J());
+            await Navigation.PushModalAsync(new Page9J());
         }
 
-        private void TapGestureRecognizer_Tapped_10(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped_10(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Page10K());
+            await Navigation.PushModalAsync(new Page10K());
         }
 
-        private void TapGestureRecognizer_Tapped_11(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped_11(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Page11L());
+            await Navigation.PushModalAsync(new Page11L());
         }
 
-        private void Back(object sender, EventArgs e)
+        private async void Back(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new MainPage());
+            await Navigation.PopModalAsync();
         }
     }
 }

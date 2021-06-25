@@ -17,21 +17,21 @@ public partial class Corps : ContentPage
         NavigationPage.SetHasNavigationBar(this, false);
     }
 
-        private void But_Back(object sender, EventArgs e)
+        private async void But_Back(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new MainPage());
+            await Navigation.PopModalAsync();
         }
-        private void Corps1(object sender, EventArgs e)
+        private async void Corps1(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Corps_One());
+            await Navigation.PushModalAsync(new Corps_One());
         }
-        private void Corps2(object sender, EventArgs e)
+        private async void Corps2(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Corps_Two());
+            await Navigation.PushModalAsync(new Corps_Two());
         }
-        private void Corps3(object sender, EventArgs e)
+        private async void Corps3(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Corps_Three());
+            await Navigation.PushModalAsync(new Corps_Three());
         }
 
     }

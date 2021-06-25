@@ -2,13 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="practic_KPK.Pages.Page6G" Background="#9EB9FF">
-    <StackLayout VerticalOptions="Fill">
-        <ScrollView>
-            <StackLayout Background="#9EB9FF" Padding="5">
-                <Frame Background="#FFFFFF" CornerRadius="10">
-                    <StackLayout>
-                        <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">15.01.05 Cварщик (ручной и частично механизированной сварки (наплавки)</Label>
-                        <Label FontSize="14" FontFamily="Monoton">Уровень образования:
+    <ScrollView VerticalOptions="FillAndExpand">
+        <StackLayout Background="#9EB9FF" Padding="5">
+            <Frame Background="#FFFFFF" CornerRadius="10">
+                <StackLayout>
+                    <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">15.01.05 Cварщик (ручной и частично механизированной сварки (наплавки)</Label>
+                    <Label FontSize="14" FontFamily="Monoton">Уровень образования:
 Среднее профессиональное;
 
  Квалификация:
@@ -28,12 +27,11 @@
 
  Продолжение образования:
 повышенный уровень образования на базе среднего профессионального образования, срок обучения 10 месяцев высшее профессиональное образование.</Label>
-                    </StackLayout>
-                </Frame>
-                <StackLayout VerticalOptions="EndAndExpand">
-                    <ImageButton x:Name="button7" Clicked="button7_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
                 </StackLayout>
+            </Frame>
+            <StackLayout VerticalOptions="EndAndExpand">
+                <ImageButton x:Name="button7" Clicked="button7_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
             </StackLayout>
-        </ScrollView>
-    </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

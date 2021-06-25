@@ -18,9 +18,9 @@ public partial class Page5F : ContentPage
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
-        private void button6_Clicked(object sender, EventArgs e)
+        private async void button6_Clicked(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new ProfPage());
+            await Navigation.PopModalAsync();
         }
     }
 }

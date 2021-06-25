@@ -18,9 +18,9 @@ public partial class Corps_Two : ContentPage
         NavigationPage.SetHasNavigationBar(this, false);
      }
 
-        private void But_Back(object sender, EventArgs e)
+        private async void But_Back(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Corps());
+            await Navigation.PopModalAsync();
         }
         private void Tap_Map2(object sender, EventArgs e)
         {

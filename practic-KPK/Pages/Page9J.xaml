@@ -2,13 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="practic_KPK.Pages.Page9J" Background="#9EB9FF">
-    <StackLayout VerticalOptions="Fill">
-        <ScrollView>
-            <StackLayout Background="#9EB9FF" Padding="5">
-                <Frame Background="#FFFFFF" CornerRadius="10">
-                    <StackLayout>
-                        <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">15.02.15 Технология металлообрабатывающего производства</Label>
-                        <Label FontSize="14" FontFamily="Monoton">Уровень образования: 
+    <ScrollView VerticalOptions="FillAndExpand">
+        <StackLayout Background="#9EB9FF" Padding="5">
+            <Frame Background="#FFFFFF" CornerRadius="10">
+                <StackLayout>
+                    <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">15.02.15 Технология металлообрабатывающего производства</Label>
+                    <Label FontSize="14" FontFamily="Monoton">Уровень образования: 
 Среднее профессиональное;
    Квалификация:
 Техник-технолог;
@@ -19,12 +18,11 @@
  Виды профессиональной деятельности: Осуществлять разработку технологических процессов и управляющих программ для изготовления деталей в металлообрабатывающих и аддитивных производствах, в том числе автоматизированных, разрабатывать технологические процессы для сборки узлов и изделий в механосборочном производстве, в том числе автоматизированном, организовывать контроль, наладку и подналадку в процессе работы и техническое обслуживание металлорежущего и аддитивного оборудования, в том числе в автоматизированном производстве, организовывать контроль, наладку и подналадку в процессе работы и техническое обслуживание сборочного оборудования, в том числе в автоматизированном производстве, организовывать деятельность подчиненного персонала, выполнение работ по профессии "токарь". 
  Продолжение образования: 
 Высшее профессиональное образования в сокращенные сроки.</Label>
-                    </StackLayout>
-                </Frame>
-                <StackLayout VerticalOptions="EndAndExpand">
-                    <ImageButton x:Name="button10" Clicked="button10_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
                 </StackLayout>
+            </Frame>
+            <StackLayout VerticalOptions="EndAndExpand">
+                <ImageButton x:Name="button10" Clicked="button10_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
             </StackLayout>
-        </ScrollView>
-    </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

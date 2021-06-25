@@ -57,38 +57,60 @@
                         <Label Text="KPK74" TextColor="#233294" FontSize="20" HorizontalOptions="Center" VerticalOptions="Center"/>
                     </Grid>
                 </Frame>
-                <StackLayout Spacing="15" Padding="3,0,3,0">
-                    <Frame BackgroundColor="White" CornerRadius="15" >
-                        <StackLayout>
-                            <Label Text="Заголовок новости" HorizontalOptions="Center" FontSize="16"/>
-                            <StackLayout Orientation="Horizontal">
-                                <Image HeightRequest="80" WidthRequest="80" Source="infoicon.png"/>
-                                <Label Text="Текст новости"/>
-                            </StackLayout>
-                        </StackLayout>
-                    </Frame>
-                    <Frame BackgroundColor="White" CornerRadius="15" >
-                        <StackLayout>
-                            <Label Text="Заголовок новости" HorizontalOptions="Center" FontSize="16"/>
-                            <StackLayout Orientation="Horizontal">
-                                <Image HeightRequest="80" WidthRequest="80" Source="infoicon.png"/>
-                                <Label Text="Текст новости"/>
-                            </StackLayout>
-                        </StackLayout>
-                    </Frame>
-                    <Frame BackgroundColor="White" CornerRadius="15" >
-                        <StackLayout>
-                            <Label Text="Заголовок новости" HorizontalOptions="Center" FontSize="16"/>
-                            <StackLayout Orientation="Horizontal">
-                                <Image HeightRequest="80" Source="infoicon.png" WidthRequest="80"/>
-                                <Label Text="Текст новости"/>
-                            </StackLayout>
-                        </StackLayout>
-                    </Frame>
-                </StackLayout>
+                <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <StackLayout Spacing="15" Padding="3,0,3,0">
+                        <Grid>
+                            <Frame BackgroundColor="White" CornerRadius="15" >
+                                <StackLayout>
+                                    <Label Text="Интеллектуально-развлекательный квиз «Своя игра»" HorizontalOptions="Center" FontSize="16"/>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image HeightRequest="80" WidthRequest="80" Source="News1.png"/>
+                                        <Label Text="С 7 по 11 июня для обучающихся 1 курса пройдет интеллектуально-развлекательный квиз «Своя..."/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                            <Button BackgroundColor="Transparent" x:Name="News1BTN" Clicked="News1BTN_Clicked"/>
+                        </Grid>
+                        <Grid>
+                            <Frame BackgroundColor="White" CornerRadius="15" >
+                                <StackLayout>
+                                    <Label Text="Слет студенческого актива колледжа на базе отдыха «Белоусово»" HorizontalOptions="Center" FontSize="16"/>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image HeightRequest="80" WidthRequest="80" Source="News2.png"/>
+                                        <Label Text="17 июня состоится традиционный слет студенческого актива колледжа на ба..."/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                            <Button BackgroundColor="Transparent" x:Name="News2BTN" Clicked="News2BTN_Clicked"/>
+                        </Grid>
+                        <Grid>
+                            <Frame BackgroundColor="White" CornerRadius="15" >
+                                <StackLayout>
+                                    <Label Text="Всемирный день без табака" HorizontalOptions="Center" FontSize="16"/>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image HeightRequest="80" Source="News3.png" WidthRequest="80"/>
+                                        <Label Text="31 мая во всем мире отмечается Всемирный день без табака, призванный защитить людей от табакокурения. В рамках данного д..."/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                            <Button BackgroundColor="Transparent" x:Name="News3BTN" Clicked="News3BTN_Clicked"/>
+                        </Grid>
+                        <Grid>
+                            <Frame BackgroundColor="White" CornerRadius="15" >
+                                <StackLayout>
+                                    <Label Text="«Выборы - молодежь - будущее»." HorizontalOptions="Center" FontSize="16"/>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image HeightRequest="80" Source="News4.png" WidthRequest="80"/>
+                                        <Label Text="В рамках мероприятий по правовому просвещению и развитию электоральной культуры моло..."/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                            <Button BackgroundColor="Transparent" x:Name="News4BTN" Clicked="News4BTN_Clicked"/>
+                        </Grid>
+                    </StackLayout>
+                </ScrollView>
             </StackLayout>
         </ContentPage>
-        
+
     </MasterDetailPage.Detail>
 </MasterDetailPage>
-

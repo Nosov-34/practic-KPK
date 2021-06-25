@@ -2,13 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="practic_KPK.Pages.Page3D" Background="#9EB9FF">
-    <StackLayout VerticalOptions="Fill">
-        <ScrollView>
-            <StackLayout Background="#9EB9FF" Padding="5">
-                <Frame Background="#FFFFFF" CornerRadius="10">
-                    <StackLayout>
-                        <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">09.02.01 Компьютерные системы и комплексы</Label>
-                        <Label FontSize="14" FontFamily="Monoton">Уровень образования:
+    <ScrollView VerticalOptions="FillAndExpand">
+        <StackLayout Background="#9EB9FF" Padding="5">
+            <Frame Background="#FFFFFF" CornerRadius="10">
+                <StackLayout>
+                    <Label FontSize="20" FontAttributes="Bold" FontFamily="Monoton" TextColor="Black">09.02.01 Компьютерные системы и комплексы</Label>
+                    <Label FontSize="14" FontFamily="Monoton">Уровень образования:
 Среднее профессиональное
 ;
 
@@ -30,12 +29,11 @@
 
  Продолжение образования:
 Повышенный уровень образования на базе среднего профессионального образования, срок обучения 10 месяцев; Высшее профессиональное образования в сокращенные сроки.</Label>
-                    </StackLayout>
-                </Frame>
-                <StackLayout VerticalOptions="EndAndExpand">
-                    <ImageButton x:Name="button4" Clicked="button4_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
                 </StackLayout>
+            </Frame>
+            <StackLayout VerticalOptions="EndAndExpand">
+                <ImageButton x:Name="button4" Clicked="button4_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
             </StackLayout>
-        </ScrollView>
-    </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
