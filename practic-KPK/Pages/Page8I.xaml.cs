@@ -16,5 +16,10 @@ public partial class Page8I : ContentPage
     {
         InitializeComponent();
     }
-}
+
+        private void button9_Clicked(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

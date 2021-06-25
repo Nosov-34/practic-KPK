@@ -30,7 +30,7 @@
 Высшее профессиональное образование.</Label>
                 </StackLayout>
             </Frame>
-            <ImageButton x:Name="butn8" Clicked="butn8_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
+            <ImageButton x:Name="button9" Clicked="button9_Clicked" Source="butimg.png" HeightRequest="65" WidthRequest="65" BackgroundColor="Transparent"></ImageButton>
         </StackLayout>
     </ScrollView>
 </ContentPage>

@@ -11,7 +11,7 @@ namespace practic_KPK
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Page0A();
         }
 
         protected override void OnStart()
