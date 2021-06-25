@@ -9,11 +9,11 @@
                        HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="25"/>
             </Frame>
             <Image Source="Corps_Main.png" Margin="10,10,10,0"/>
-            <Image Source="Corps_Main_Map.png" Margin="50,0,50,0"/>
+            <Image Source="Corps_Main_Map.png" Margin="60,0,60,0"/>
             
             <StackLayout HorizontalOptions="Center" VerticalOptions="EndAndExpand" Padding="5">
                 <ImageButton Source="ButBack.png" WidthRequest="65" BackgroundColor="Transparent"
-                        Clicked="But_Back"/>
+                        Clicked="But_Back" VerticalOptions="FillAndExpand"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

@@ -10,7 +10,7 @@ namespace practic_KPK
         {
             InitializeComponent();
 
-            MainPage = new Pages.Corps();
+            MainPage = new MainPage();
             
         }
 

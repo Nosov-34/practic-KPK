@@ -19,7 +19,7 @@ public partial class Corps : ContentPage
 
         private void But_Back(object sender, EventArgs e)
         {
-            
+            App.Current.MainPage = new NavigationPage(new MainPage());
         }
         private void Corps1(object sender, EventArgs e)
         {
