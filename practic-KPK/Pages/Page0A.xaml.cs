@@ -20,6 +20,7 @@ public partial class Page0A : ContentPage
 
         private async void button1_Clicked(object sender, EventArgs e)
         {
+            DisabledButtons.UnLockButtons();
             await Navigation.PopModalAsync();
         }
     }

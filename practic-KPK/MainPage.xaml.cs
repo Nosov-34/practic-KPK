@@ -6,10 +6,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using practic_KPK.Pages;
+
 namespace practic_KPK
 {
     public partial class MainPage : MasterDetailPage
     {
+        Button disabledButton;
+
         public MainPage()
         {
             MessagingCenter.Subscribe<EventArgs>(this, "OpenMenu", args =>
@@ -19,6 +22,7 @@ namespace practic_KPK
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
         }
+
         private void MenuBTN_Clicked(object sender, EventArgs e)
         {
             MessagingCenter.Send(EventArgs.Empty, "OpenMenu");
@@ -32,7 +36,7 @@ namespace practic_KPK
         {
             if (sender is Button button)
             {
-                button.IsEnabled = false;
+                DisabledButtons.DisableButton(button);
             }
             await Navigation.PushModalAsync(new Corps());
             MessagingCenter.Send(EventArgs.Empty, "OpenMenu");
@@ -40,12 +44,20 @@ namespace practic_KPK
 
         private async void SpecBTN_Clicked(object sender, EventArgs e)
         {
+            if (sender is Button button)
+            {
+                DisabledButtons.DisableButton(button);
+            }
             await Navigation.PushModalAsync(new ProfPage());
             MessagingCenter.Send(EventArgs.Empty, "OpenMenu");
         }
 
         private async void StudentBTN_Clicked(object sender, EventArgs e)
         {
+            if (sender is Button button)
+            {
+                DisabledButtons.DisableButton(button);
+            }
             await Navigation.PushModalAsync(new StudentPage());
             MessagingCenter.Send(EventArgs.Empty, "OpenMenu");
         }

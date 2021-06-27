@@ -20,6 +20,7 @@ public partial class Corps_One : ContentPage
 
         private async void But_Back(object sender, EventArgs e)
         {
+            DisabledButtons.UnLockButtons();
             await Navigation.PopModalAsync();
         }
 

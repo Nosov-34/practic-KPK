@@ -20,6 +20,7 @@ public partial class Corps_Three : ContentPage
 
         private async void But_Back(object sender, EventArgs e)
         {
+            DisabledButtons.UnLockButtons();
             await Navigation.PopModalAsync();
         }
         private void Tap_Map3(object sender, EventArgs e)

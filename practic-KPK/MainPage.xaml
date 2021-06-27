@@ -12,10 +12,10 @@
                     </Grid>
                 </Frame>
 
-                <StackLayout Spacing="5" Padding="15,0,3,0" VerticalOptions="FillAndExpand">
+                <StackLayout Spacing="5" Padding="15,0,15,0" VerticalOptions="FillAndExpand">
 
                     <Grid HorizontalOptions="Center">
-                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Spacing="18" Padding="0,0,0,0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Spacing="18">
                             <Image Source="korpicon.png" WidthRequest="30" HeightRequest="30"/>
                             <Label Text="Корпуса" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
                         </StackLayout>
@@ -23,7 +23,7 @@
                     </Grid>
 
                     <Grid HorizontalOptions="Center">
-                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Spacing="15" Padding="-2,-20,0,0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Spacing="15">
                             <Image Source="specicon.png" WidthRequest="35" HeightRequest="35"/>
                             <Label Text="Специальности" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
                         </StackLayout>
@@ -31,7 +31,7 @@
                     </Grid>
 
                     <Grid HorizontalOptions="Center">
-                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Spacing="14" Padding="0,-40,0,0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Spacing="14">
                             <Image Source="studenticon.png" WidthRequest="35" HeightRequest="35"/>
                             <Label Text="Студентам" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
                         </StackLayout>
